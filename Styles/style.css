@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+CU:wght@100..400&display=swap');
+
+body{
+    font-family: "Mulish", sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* common-styles */
+.span{
+    color: rgb(255, 84, 0);
+}
+.darak02{
+    color: rgb(66, 66, 71);
+}
+/* navbar-styles */
+.navcontainer{
+    width: 90%;
+    display: flex;
+    margin: 0% auto;
+    padding-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+}
+.navmenu img{
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+}
+.navmenu h3{
+     font-size: 2rem;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.navoptions{
+    display: flex;
+    justify-content:space-around;
+    gap: 4rem;
+} 
+.navoptions p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height:23px;
+    letter-spacing: normal;
+ 
+}
+/* Banner */
+.containar{
+    width: 90%;
+    /* border: 1px solid rebeccapurple; */
+    margin: 5% auto;
+    background-image:linear-gradient(180deg,rgba(19,19,24,0.8)0%,
+    rgba(19,19,24,0)100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  
+} 
+.Explore-travel{
+    /* display: flex; */
+    padding: 5rem 5rem;
+    justify-content: center;
+    align-items: center;
+} 
+.Explore-travel h3{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+}
+.Explore-travel p{
+    width: 676px;
+    margin: 0% auto;
+    padding: 1.5rem 0rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight:400;
+    line-height: 23px;
+    color: rgba(234, 235, 236, 0.945);
+ 
+}
+.inputs{
+    width: 78%;
+    margin: 2% auto;
+    padding: 1.5rem 0rem;
+    background-color: rgba(255,255,255,0.2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+}
+input,
+select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    border: none;
+    padding: 0rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.btn-primary{
+    background-color:  rgb(255, 84, 0);
+    width: 140px;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: none;
+    gap: 15px;
+    font-size: 1rem;
+    color: white;
+
+
+}
