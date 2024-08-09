@@ -1,5 +1,8 @@
 /* Responsive */
 @media screen and (max-width:576px){
+    body{
+        padding: 10px;
+    }
     .navcontainer{
         margin: 10px;
         padding-top:1%;
@@ -35,23 +38,52 @@
         line-height: normal;
     }
     .inputs{
-        width: 95%;
+        width: 90%;
+        flex-direction: column;
         margin: 0 auto;
         padding: 1.5rem 1rem;
         gap: 25px;
         
     }
     input{
-        width: 70px;
+        width: 92%;
     }
 select{
-    width: 100px
+    width: 100%;
 
 }
 .btn-primary{
-    width: 120px;
-    font-size: 12px;
+    width: 100%;
+    font-size: 1.5rem;
     
+}
+.contain{
+    width: 100%;
+    flex-direction: column;
+    gap: 5rem;
+}
+.our-popular{
+    width: 100%;
+}
+.hide{
+    width: 200px;
+}
+.contain{
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+.our-popular{
+    width: 100%;
+}
+
+.our-popular h3{
+    font-size: 2rem;
+}
+.our-popular p{
+    font-size: 14px;
+}
+.sun-image{
+    width: 100%;
 }
 
 }

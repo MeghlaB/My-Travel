@@ -2,7 +2,6 @@
 
 body{
     font-family: "Mulish", sans-serif;
-    width: 100vw;
 
 }
 *{
@@ -16,6 +15,9 @@ body{
 }
 .darak02{
     color: rgb(66, 66, 71);
+}
+.hide{
+    margin-top: 2rem;
 }
 /* navbar-styles */
 .navcontainer{
@@ -66,6 +68,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 8px;
     text-align: center;
   
 } 
@@ -104,6 +107,7 @@ body{
     border-radius: 8px;
     backdrop-filter: blur(4px);
 }
+
 input{
  
     width: 120px;
@@ -121,6 +125,7 @@ select{
     padding: 0rem 1rem;
     border-radius: 8px;
     font-size: 1rem;
+    color: grey;
 }
 .btn-primary{
     background-color:  rgb(255, 84, 0);
@@ -134,10 +139,45 @@ select{
 }
 
 
-.hide{
-    display: none;
+/* Our-popular-travel-styles */
+.contain{
+    width: 90%;
+    margin: 0% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12.5rem;
+   
 }
+.our-popular{
+    width: 500px;
+}
+.our-popular h3{
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
 
+}
+.our-popular p{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: grey;
+    font-weight:normal;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+.our-popular li{
+    font-size: 1rem;
+    color: grey;
+    padding: 1rem 2rem;
+    text-align: justify;
+    font-weight:normal;
+    line-height: normal;
+    letter-spacing: 1px;
+
+}
+.img >img{
+    width: 100%;
+}
 
 
 
