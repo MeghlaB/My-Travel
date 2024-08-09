@@ -1,0 +1,57 @@
+/* Responsive */
+@media screen and (max-width:576px){
+    .navcontainer{
+        margin: 10px;
+        padding-top:1%;
+    }
+    .navoptions{
+        display: none;
+    }
+    .navmenu img{
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
+    }
+    .navmenu h3{
+        font-size: 1.5rem;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .humbar{
+        display: inline;
+    }
+    .containar{
+        width: 100%;
+    }
+    .Explore-travel{
+        padding: 1rem 1rem;
+    }
+    .Explore-travel h3 {
+        font-size: 2rem;
+    }
+    .Explore-travel p{
+        width: 100%;
+        line-height: normal;
+    }
+    .inputs{
+        width: 95%;
+        margin: 0 auto;
+        padding: 1.5rem 1rem;
+        gap: 25px;
+        
+    }
+    input{
+        width: 70px;
+    }
+select{
+    width: 100px
+
+}
+.btn-primary{
+    width: 120px;
+    font-size: 12px;
+    
+}
+
+}

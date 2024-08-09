@@ -2,6 +2,7 @@
 
 body{
     font-family: "Mulish", sans-serif;
+    width: 100vw;
 
 }
 *{
@@ -35,7 +36,7 @@ body{
     margin-right: 15px;
 }
 .navmenu h3{
-     font-size: 2rem;
+    font-size: 2rem;
     font-weight: 800;
     line-height: normal;
     letter-spacing: normal;
@@ -51,6 +52,9 @@ body{
     line-height:23px;
     letter-spacing: normal;
  
+}
+.humbar{
+    display: none;
 }
 /* Banner */
 .containar{
@@ -91,22 +95,26 @@ body{
  
 }
 .inputs{
-    width: 78%;
+    width: 60%;
     margin: 2% auto;
-    padding: 1.5rem 0rem;
+    padding: 1.5rem 2rem;
     background-color: rgba(255,255,255,0.2);
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
+    gap: 40px;
     border-radius: 8px;
     backdrop-filter: blur(4px);
 }
-input,
+input{
+ 
+    width: 120px;
+    height: 50px;
+    border: none;
+    padding: 0rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
 select{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
     width: 140px;
     height: 50px;
     border: none;
@@ -123,6 +131,13 @@ select{
     gap: 15px;
     font-size: 1rem;
     color: white;
-
-
 }
+
+
+.hide{
+    display: none;
+}
+
+
+
+
