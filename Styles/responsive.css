@@ -112,3 +112,23 @@ select{
 }
 
 }
+/* who choose responsive */
+.chosse_one_container{
+    width: 100%;
+}
+.choose-us h3{
+    font-size: 1.5rem;
+}
+.choose-us p{
+    font-size: 14px;
+    padding: 0;
+}
+.card ,
+.card0{
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0;
+}
+.card1{
+    padding: 0;
+}
