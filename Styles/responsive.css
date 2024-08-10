@@ -85,5 +85,30 @@ select{
 .sun-image{
     width: 100%;
 }
+/* choose your destination */
+.destination-container{
+    width: 100%;
+}
+.choose-your-destination{
+    text-align: center;
+    padding-top: 2rem ;
+
+}
+.choose-your-destination h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: normal
+
+}
+.choose-your-destination p{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: normal;
+}
+.section-card,
+.section-card0,
+.section-card1{
+    grid-template-columns: 1fr;
+}
 
 }
