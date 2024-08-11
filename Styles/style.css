@@ -316,3 +316,197 @@ select{
     padding: 1rem 2.5rem;
 
 }
+/* deals-disounts-container */
+.deals_discounts_container{
+    width: 90%;
+    margin: 0% auto;
+}
+.deals_discounts{
+   text-align: center;
+   padding: 2rem;
+}
+.deals_discounts h3{
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+
+}
+.deals_discounts p{
+    font-size: 16px;
+    font-weight: normal;
+    color: grey;
+}
+.discounts_card-1 >img,
+.discounts_card-2 >img,
+.discounts_card-3 >img{
+    width: 100%;
+    padding-bottom: 3rem;
+  
+}
+.discounts_card-1{
+    position: relative;
+
+}
+.join{
+    font-size: 24px;
+    color: rgb(65, 64, 64);
+}
+.booking-card1{
+    width: 50%;
+    height: 300px;
+    box-sizing: border-box;
+    background: whitesmoke;
+    filter: blur(5%);
+    position: absolute;
+    top: 20%;
+    left: 45%; 
+    border-radius: 18px;
+    padding-top: 1%;
+   
+}
+.booking-card1 h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 3rem;
+
+
+
+}
+.booking-card1 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 3rem;
+}
+.booking-card1 h2{
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    color: rgb(255, 84, 0);
+    
+
+}
+.book_now{
+    background-color:  rgb(255, 84, 0);
+    width: 140px;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: none;
+    gap: 15px;
+    font-size: 1rem;
+    color: white;
+}
+/* discounts-card-2 */
+.discounts_card-2{
+    position: relative;
+
+}
+.join{
+    font-size: 24px;
+    color: rgb(65, 64, 64);
+}
+.booking-card2{
+    width: 50%;
+    height: 300px;
+    box-sizing: border-box;
+    background: whitesmoke;
+    filter: blur(5%);
+    position: absolute;
+    top: 20%;
+    left: 45%; 
+    border-radius: 18px;
+    padding-top: 1%;
+   
+}
+.booking-card2 h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 3rem;
+
+
+
+}
+.booking-card2 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 3rem;
+}
+.booking-card2 h2{
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    color: rgb(255, 84, 0);
+    
+
+}
+.book_now{
+    background-color:  rgb(255, 84, 0);
+    width: 140px;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: none;
+    gap: 15px;
+    font-size: 1rem;
+    color: white;
+}
+/* booking-card3 */
+.discounts_card-3{
+    position: relative;
+
+}
+.join{
+    font-size: 24px;
+    color: rgb(65, 64, 64);
+}
+.booking-card3{
+    width: 100%;
+    /* height: 300px; */
+    box-sizing: border-box;
+    background: whitesmoke;
+    filter: blur(5%);
+    position: absolute;
+    top: 20%;
+    left: 45%; 
+    border-radius: 18px;
+    padding-top: 1%;
+   
+}
+.booking-card3 h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 3rem;
+
+
+
+}
+.booking-card3 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 3rem;
+}
+.booking-card3 h2{
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    color: rgb(255, 84, 0);
+    
+
+}
+.book_now{
+    background-color:  rgb(255, 84, 0);
+    width: 140px;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: none;
+    gap: 15px;
+    font-size: 1rem;
+    color: white;
+}
