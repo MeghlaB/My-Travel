@@ -251,56 +251,68 @@ select{
     color: grey;
 
 }
-.card{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin: 1.2rem 0;
-    padding: 0 5rem;
+.chosse_one_container>.card,
+.chosse_one_container>.card0{
+    width: 100%;
 }
-.card1>img ,
-.card2>img ,
-.card3>img{
-    width:5%;
-    /* height: 50px; */
-    padding: 0rem 2rem;
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card >.card1,
+.card >.card2{
+    width: 45%;
+    margin: 0% auto;
+    border: 1px solid rebeccapurple;
+
+
+}
+.card0>.card3{
+    width: 45%;
+    margin: 0% auto;
+    border: 1px solid rebeccapurple;
+    margin-top: 20px;
+ 
 }
 .card1{
     box-sizing: border-box;
-    border: 1px solid rgba(251, 181, 99, 0.2);
     border-radius: 16px;
-    background: rgba(210, 165, 214, 0.05);
-
-}
-.card1 h3,
-.card2 h3 ,
-.card3 h3{
-    padding:1rem 2rem ;
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
-}
-.card1 p,
-.card2 p ,
-.card3 p{
-    padding:1rem 2rem ;
-    font-size: 16px;
-    color: grey;
+    border: 1px solid rgb(247, 242, 178);
+    background-color: rgba(155, 173, 143, 0.5);
 }
 .card2{
     box-sizing: border-box;
-border: 1px solid rgba(41, 206, 246, 0.2);
-border-radius: 16px;
-
-background: rgba(41, 206, 246, 0.05);
-}
-.card0{
-    width: 50%;
-    margin: 0% auto;
-    box-sizing: border-box;
-    border: 1px solid rgba(233, 68, 68, 0.2);
     border-radius: 16px;
+    border: 1px solid rgb(141, 106, 77);
+    background-color: rgba(167, 147, 105, 0.5);
+}
+.card3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid rgb(146, 106, 133);
+    background-color: rgba(175, 157, 170, 0.5);
+}
+.card1 img,
+.card2 img,
+.card3 img{
+    width: 4%;
+    padding: 1rem 2.5rem;
 
-    background: rgba(233, 68, 68, 0.05);
+}
+.card1 h3,
+.card2 h3,
+.card3 h3{
+    font-size: 2rem;
+    color: black;
+    padding: 1rem 2.5rem;
+}
+.card1 p,
+.card2 p,
+.card3 p{
+    font-size: 18px;
+    color: grey;
+    padding: 1rem 2.5rem;
 
 }

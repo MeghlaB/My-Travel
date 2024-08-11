@@ -110,8 +110,6 @@ select{
 .section-card1{
     grid-template-columns: 1fr;
 }
-
-}
 /* who choose responsive */
 .chosse_one_container{
     width: 100%;
@@ -123,12 +121,16 @@ select{
     font-size: 14px;
     padding: 0;
 }
-.card ,
-.card0{
-    grid-template-columns: 1fr;
+.card{
+    flex-direction: column;
+}
+.card>.card1,
+.card>.card2{
+   width: 100%;
+}
+.card0>.card3{
     width: 100%;
-    padding: 0;
 }
-.card1{
-    padding: 0;
 }
+
+
